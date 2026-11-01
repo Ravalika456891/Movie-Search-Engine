@@ -1,0 +1,22 @@
+
+#movie-container{
+    width: 80%;
+    border: 4px solid black;
+    margin:50px auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+.moviecard{
+    width: calc( 25% - 30px - 4px);
+    border: 2px solid red;
+    margin: 15px;
+    text-align: center;
+}
+.image{
+    width: 100%;
+    height: 500px;
+}
+#movie-status{
+    font-size: 30px;
+    text-align: center;
+}
